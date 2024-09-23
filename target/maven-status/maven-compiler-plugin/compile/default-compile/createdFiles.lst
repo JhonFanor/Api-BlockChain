@@ -1,0 +1,4 @@
+api/user/controllers/UserController.class
+api/ApiApplication.class
+api/user/entities/UserEntitie.class
+api/user/services/UserService.class
