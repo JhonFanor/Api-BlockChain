@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: api-blockchain
+    ports:
+      - "8080:8080"
+    networks:
+      - blockchain-net
+
+networks:
+  blockchain-net:
+    driver: bridge
